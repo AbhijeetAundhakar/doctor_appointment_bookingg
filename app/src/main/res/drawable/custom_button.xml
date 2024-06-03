@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+<shape android:shape="rectangle">
+    <solid android:color="#34A7FF"/>
+    <!-- use stroke cmd to give the border -->
+    <!-- use dash cmd to give the dotted border -->
+
+    <stroke android:width="2dp"
+        android:dashGap="0dp"
+        android:dashWidth="10dp"
+        android:color="@color/black"/>
+
+    <size android:width="50dp"
+        android:height="50dp"/>
+
+
+    <!-- Gradient is used for combination of 2 colors-->
+
+</shape>
+    </item>
+</selector>

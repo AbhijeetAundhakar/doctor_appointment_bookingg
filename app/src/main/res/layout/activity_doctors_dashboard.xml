@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#F1F1F1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doctorsDashboard">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/rectangle_round"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/doctor"/>
+
+                    <TextView
+                        android:id="@+id/doctorName"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="times"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/welcome_doctors"
+                        android:textColor="#ffffff"
+                        android:textSize="26sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/welcometext"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="40dp"
+                        android:fontFamily="times"
+                        android:textColor="#ffffff"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/myPatientCardview"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    app:cardUseCompatPadding="true"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="84dp"
+                            android:layout_height="84dp"
+                            android:padding="5dp"
+                            android:background="@drawable/circlebackground"
+                            android:src="@drawable/ic_person"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="My Patients"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="times"
+                            android:textStyle="bold"
+                            android:textColor="#5A5A5A"
+                            android:textSize="18dp"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/appoinmentCard"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    app:cardUseCompatPadding="true"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="84dp"
+                            android:layout_height="84dp"
+                            android:padding="10dp"
+                            android:background="@drawable/circlebackground"
+                            android:src="@drawable/ic_appointement"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Requests"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="times"
+                            android:textStyle="bold"
+                            android:textColor="#5A5A5A"
+                            android:textSize="18dp"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/finsdfdDoctor"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    app:cardUseCompatPadding="true"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="84dp"
+                            android:layout_height="84dp"
+                            android:padding="5dp"
+                            android:background="@drawable/circlebackground"
+                            android:src="@drawable/ic_person_black_24dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Profile"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="times"
+                            android:textStyle="bold"
+                            android:textColor="#5A5A5A"
+                            android:textSize="18dp"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/findDocsdftor2"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    app:cardUseCompatPadding="true"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="84dp"
+                            android:layout_height="84dp"
+                            android:padding="10dp"
+                            android:background="@drawable/circlebackground"
+                            android:src="@drawable/ic_request"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Appointment"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="times"
+                            android:textStyle="bold"
+                            android:textColor="#5A5A5A"
+                            android:textSize="18dp"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/findDossdfcsdftor2"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    app:cardUseCompatPadding="true"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="84dp"
+                            android:layout_height="84dp"
+                            android:padding="10dp"
+                            android:background="@drawable/circlebackground"
+                            android:src="@drawable/ic_calendar"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Calender"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="times"
+                            android:textStyle="bold"
+                            android:textColor="#5A5A5A"
+                            android:textSize="18dp"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <Button
+                    android:id="@+id/logoutButton"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#CE0000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="times"
+                    android:textStyle="bold"
+                    android:text="LOGOUT"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

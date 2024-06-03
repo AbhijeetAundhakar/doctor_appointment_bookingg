@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "494606026923",
+    "project_id": "healthcareclientfirebase",
+    "storage_bucket": "healthcareclientfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494606026923:android:79bc6b3e9d2dc6f04acfee",
+        "android_client_info": {
+          "package_name": "com.example.healthcareclientfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB96Jlq2fCzNDy43AxlmbFmARFOaTtO9J0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

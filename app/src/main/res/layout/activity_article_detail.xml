@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    tools:context=".ArticleDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvArticleHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HEADING"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="times"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="28sp"
+            android:padding="8dp" />
+
+        <ImageView
+            android:id="@+id/imageViewArticle"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/article_image" />
+
+        <TextView
+            android:id="@+id/tvArticleContent"
+            android:layout_width="match_parent"
+            android:text="text"
+            android:fontFamily="times"
+            android:layout_height="wrap_content"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</ScrollView>

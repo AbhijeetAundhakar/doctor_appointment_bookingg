@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".bookingForm">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+<!--     NEW CODE   -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/appointment"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="times"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="28sp"
+            android:textColor="@color/deeppurple"
+            android:text="@string/book_your_appointment"/>
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="times"
+            android:background="@drawable/borders"
+            android:padding="15dp"
+            android:hint="First Name"/>
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="times"
+            android:background="@drawable/borders"
+            android:padding="15dp"
+            android:hint="Last Name"/>
+
+        <EditText
+            android:id="@+id/etProblemDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="times"
+            android:background="@drawable/borders"
+            android:padding="15dp"
+            android:hint="Problem Description"/>
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="times"
+            android:inputType="number"
+            android:background="@drawable/borders"
+            android:padding="15dp"
+            android:hint="Phone No."/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/date_time_design"
+                android:layout_margin="10dp"
+                android:fontFamily="times"
+                android:textSize="16sp"
+                android:textColor="#8E8E8E"
+                android:text="Select Date" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/date_time_design"
+                android:layout_margin="10dp"
+                android:fontFamily="times"
+                android:textSize="16sp"
+                android:textColor="#8E8E8E"
+                android:text="Select Time" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="times"
+            android:padding="15dp"
+            android:backgroundTint="#005086"
+            android:textSize="20sp"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:text="Submit"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

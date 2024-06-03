@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageRecycle"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:padding="10dp"
+            android:background="@drawable/circlebackground_for_another"
+            app:civ_border_width="2dp"
+            android:layout_gravity="center"
+            app:civ_border_color="#E3E3E3"
+            android:src="@drawable/doctor"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="times"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:text="Name : "/>
+
+            <TextView
+                android:fontFamily="times"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:id="@+id/doctorNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doctor name"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="times"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Hospital : "/>
+
+            <TextView
+                android:id="@+id/nameOfHospitalText"
+                android:fontFamily="times"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NameOfHospitalText"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="times"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Licence No. : "/>
+
+            <TextView
+                android:id="@+id/licenceText"
+                android:fontFamily="times"
+                android:layout_width="wrap_content"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"
+                android:text="licenceText"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="times"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Specility : "/>
+
+            <TextView
+                android:id="@+id/specilityText"
+                android:layout_width="wrap_content"
+                android:fontFamily="times"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"
+                android:text="specilityText"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="times"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Years Of Experience : "/>
+
+            <TextView
+                android:id="@+id/yearsOfExperienceText"
+                android:fontFamily="times"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="expText"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="times"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Email : "/>
+
+            <TextView
+                android:id="@+id/emailText"
+                android:fontFamily="times"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EmailText"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

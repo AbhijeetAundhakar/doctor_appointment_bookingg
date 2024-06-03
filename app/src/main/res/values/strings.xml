@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">healthcareClientFirebase</string>
+    <string name="welcomeHealth">WELCOME TO HEALTHCARE</string>
+    <string name="signup_as_doctor">SignUp As Doctor</string>
+    <string name="doctor_sign_in">Doctor Sign In</string>
+    <string name="medicineowner">MedicineOwner</string>
+    <string name="welcome_doctors">WELCOME DOCTORS</string>
+    <string name="welcometext">HOW WE CAN HELP YOU TODAY</string>
+    <string name="article_image">Article Image</string>
+    <string name="book_your_appointment">BOOK YOUR APPOINTMENT</string>
+    <string name="book_appointment">BOOK APPOINTMENT</string>
+    <string name="welcome_doctors_mainpage">WELCOME DOCTORS</string>
+
+</resources>
